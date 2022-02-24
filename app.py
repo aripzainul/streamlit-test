@@ -3,6 +3,14 @@ import pandas as pd
 import numpy as np
 
 
+st.set_page_config(
+   page_title="Streamlit Test", #ini header dalam websitenya
+   #link pavicon : https://www.webfx.com/tools/emoji-cheat-sheet/
+   page_icon=":octocat:", #ini untuk pavicon
+   layout="wide"
+)
+
+
 st.markdown("""
 
 This is my first streamlit app.
